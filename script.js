@@ -28,5 +28,9 @@ const loop = setInterval (() =>{
     }
 
 },10)
-
+var btn = document.querySelector("#refresh");
+btn.addEventListener("click", function() {
+    
+    location.reload();
+});
 document.addEventListener("keydown",jump);
